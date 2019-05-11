@@ -1,8 +1,8 @@
-# Lab Entry Team B
+# Node.js Hello World Sample
 
-This application gives a platform to the lecturers to check the students unit's status.
+This application demonstrates a simple, reusable Node.js web application based on the Express framework.
 
-## To Run the app locally
+## Run the app locally
 
 1. [Install Node.js][]
 1. cd into this project's root directory
