@@ -286,8 +286,8 @@ margin-left: 4px;
 /* #e5e5e5 */
 /* Check Id */
 .btn-style {
-    width:100px;
-    height:100px;
+    width:80px;
+    height:80px;
     margin-left:5px;
     border-radius:4px;
 }
@@ -347,7 +347,7 @@ margin-left: 4px;
 	/* background:#24b4de; */
 	background:#0c8573;
     color:#fff;
-    font-size:42px;
+    font-size:36px;
     cursor: pointer;
     outline:none;
     border-bottom:3px solid #399cb9;
@@ -356,7 +356,7 @@ margin-left: 4px;
 .del-bg:active {
     background:#0c8573;
     color:#fff;
-    font-size:40px;
+    font-size:34px;
     cursor: pointer;
     outline:none;
     box-shadow: inset 4px 4px 4px #399cb9;
@@ -366,7 +366,7 @@ margin-left: 4px;
 #eqn-bg {
     background:#17a928;
     color:#fff;
-    font-size:42px;
+    font-size:36px;
     cursor: pointer;
     outline:none;
 	border-bottom:3px solid #1f7a29;
@@ -376,7 +376,7 @@ margin-left: 4px;
 #eqn-bg:active {
     background:#17a928;
     color:#fff;
-    font-size:40px;
+    font-size:34px;
     cursor: pointer;
     outline:none;
     box-shadow: inset 4px 4px 4px #1f7a29;
@@ -385,7 +385,7 @@ margin-left: 4px;
 {
 	font-size: -webkit-xxx-large;
     border: 1px solid;
-    height: 75px;
+    height: 70px;
     width: 400px;
 	text-align: center;
 	margin-left: 394px;
@@ -406,6 +406,17 @@ button
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover
 {
-	background-color: transparent;
+	/* background-color: transparent; */
+	background-color: #0c8573;
+	color: white;
+	border:1px solid  #0c8573;
 	font-weight: bold;
+}
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    color: #0c8573;
+    font-weight: bold;
 }

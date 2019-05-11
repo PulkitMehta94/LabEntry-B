@@ -181,10 +181,10 @@ function unitSelected(unit)
 }
 function displayStudents(unit)
 {   
-    var  studentTable="<table id='datatable'><tr><td style='width: 80px; color: white; text-align: center'>Student ID</td>";
-    studentTable+= "<td style='width: 80px; color: white; text-align: center;'>Student Name</td>";
-    studentTable+="<td style='width: 80px; color: white; text-align: center;'>Unit Enrolled</td>";
-    studentTable+="<td style='width: 80px; color: white; text-align: center;'>Pre-requisite\n(Completed)</td></tr>";
+    var  studentTable="<table id='datatable'><tr><td style='width: 80px; color: white; text-align: center'>STUDENT ID</td>";
+    studentTable+= "<td style='width: 80px; color: white; text-align: center;'>STUDENT NAME</td>";
+    studentTable+="<td style='width: 80px; color: white; text-align: center;'>UNIT ENROLLED</td>";
+    studentTable+="<td style='width: 80px; color: white; text-align: center;'>PRE-REQUISITE\n(COMPLETED)</td></tr>";
     studentTable+="<tbody id='myTable'>";
 
     if(data.length==0)
