@@ -53,9 +53,9 @@
             <tr>
               <td>
                 <div style="margin:8px;">
-                  <div class='description' style="display: inline-block; margin-left: 20px;color:white;">Select a Unit
+                  <div class='description' style="display: inline-block; margin-left: 20px;color:white;">Unit
                     <span class="blue">
-                      <select onchange="unitSelected(this.value)" style="color:black;">
+                      <select onchange="unitSelected(this.value)" style="color:black;" >
                         <option value="">--Select--</option>
                         <option value="SIT772">SIT772</option>
                         <option value="SIT708">SIT708</option>
@@ -96,13 +96,25 @@
 
       </div>
       <div id="menu1" class="tab-pane fade">
+          <br>
+          <div class='description' style="display: inline-block; margin-left: 20px;color:#0c8573;">Unit
+              <span class="blue">
+                <select onchange="unitSelected(this.value)" style="color:black;" id="Unit">
+                  <option value="">--Select--</option>
+                  <option value="SIT772">SIT772</option>
+                  <option value="SIT708">SIT708</option>
+                  <option value="SIT732">SIT732</option>
+                  <option value="SIT788">SIT788</option>
+                </select>
+              </span>
+            </div>
         <div class="container">
           <!-- Main background -->
           <div class="row">
             <div id="result" class="resultBar col-lg-6"></div>
             <span>
               <button class="del-bg" id="delete">DELETE</button>
-              <button value="check" id="eqn-bg">CHECK</button>
+              <button value="check" id="eqn-bg" onclick="checkID()">CHECK</button>
             </span>
           </div>
             <br>

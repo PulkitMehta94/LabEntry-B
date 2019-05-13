@@ -63,13 +63,15 @@ $(document).ready(function(){
           for(var i = 0; i < len; i++ ) {
             
             elem[i].addEventListener("click",function() {
+                output=screen.innerHTML;
+                limit = output.length;
+                if(limit<10){
                       
                 num = this.value;
                          
                 output = screen.innerHTML +=num;
                       
-                limit = output.length;
-             
+                }
              if(limit > 10 ) {
             
              alert("Sorry no more input is allowed");
@@ -220,3 +222,17 @@ function displayStudents(unit)
       
 //     }
 
+function checkID()
+{   console.log("CheckID");
+    var unit=document.getElementById("Unit").value;
+    var studentID=document.getElementById("result").innerText;
+    console.log(document.getElementById("Unit").value);
+    console.log(document.getElementById("result").innerText);
+    if (unit!=""||studentID!="")
+    {
+        // AJAX call
+        //if else 
+        alert("Student has completed the pre-requisites for the unit:"+unit);
+    }
+    
+}
